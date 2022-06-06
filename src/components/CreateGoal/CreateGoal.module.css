@@ -1,0 +1,28 @@
+.exampleWrapp {
+  border: 1px solid blue;
+  padding: 20px;
+  width: 140px;
+}
+.exampleWrapp img {
+  width: 50px;
+}
+.plusIcon {
+  width: 50px;
+  cursor: pointer;
+}
+.stagesWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+.plusWrapper {
+  width: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.createWrapper {
+  background-color: #fff;
+  padding: 20px;
+}

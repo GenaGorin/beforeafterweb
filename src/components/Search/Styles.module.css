@@ -1,0 +1,48 @@
+.wrapper {
+  margin-top: 16px;
+  text-decoration: none;
+  color: #2d2d2f;
+}
+.wrapper:hover {
+  color: #4d80aa;
+}
+.wrap {
+  display: flex;
+  margin-bottom: 20px;
+}
+.textWrapper {
+  width: 350px;
+}
+.textWrapper:hover {
+  color: #4d80aa;
+}
+.textWrapper div:nth-child(1) {
+  font-size: 18px;
+  color: #2d2d2f;
+}
+.textWrapper div:nth-child(2) {
+  font-size: 14px;
+  color: #909090;
+}
+.textWrapper div:nth-child(1):hover {
+  color: #4d80aa;
+}
+.textWrapper div:nth-child(2):hover {
+  color: #4d80aa;
+}
+.imgWrapp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.tag {
+  padding: 5px 20px 5px 20px;
+  background-color: blue;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 8px;
+  margin-right: 16px;
+}
+.tag:hover {
+  color: #fff;
+}

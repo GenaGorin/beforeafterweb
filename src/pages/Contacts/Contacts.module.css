@@ -1,0 +1,24 @@
+.contactsWrapper {
+  background-color: #fff;
+  padding: 20px;
+}
+.imgWrapp img {
+  width: 50px;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+.imgWrapp {
+  display: flex;
+  text-decoration: none;
+}
+.imgWrapp div {
+  margin-top: 32px;
+  color: #909090;
+}
+.title {
+  font-size: 25px;
+}
+.text {
+  color: #909090;
+  max-width: 600px;
+}

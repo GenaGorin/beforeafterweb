@@ -1,0 +1,18 @@
+.stageWrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imageWrapper {
+  width: 60vh;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.imageWrapper img {
+  max-height: 100%;
+  border-radius: 8px;
+}

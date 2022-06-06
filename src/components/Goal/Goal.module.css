@@ -1,0 +1,104 @@
+.imageWrapper {
+  width: 80px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.imageWrapper img {
+  max-height: 100%;
+}
+.authorWrapper {
+  display: flex;
+}
+.authorWrapperData {
+  display: flex;
+  margin-right: 10px;
+}
+.authorWrapperData img {
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  margin-right: 10px;
+}
+.goalLikeWrapper img {
+  width: 30px;
+  height: 30px;
+}
+.authorWrapperHref {
+  text-decoration: none;
+  color: #2d2d2f;
+}
+.titleWrapper {
+  display: flex;
+}
+.likeWrapper {
+  display: flex;
+}
+.goalLikeWrapper {
+  display: flex;
+  margin-left: 10px;
+  margin-top: 4px;
+  cursor: pointer;
+}
+.goalLikeWrapper div:nth-child(2) {
+  margin-top: 5px;
+  color: #4d80aa;
+}
+.mainGoalWrapper {
+  background-color: #fff;
+  padding: 20px;
+}
+.createdAt {
+  font-size: 12px;
+  margin-top: 4px;
+}
+.createdAt span {
+  color: #4d80aa;
+}
+.goalTitle {
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.goalDesc {
+  font-size: 14px;
+  color: #909090;
+  margin-bottom: 50px;
+  word-break: break-all;
+}
+.imageWrapp {
+  width: 600px;
+  height: 600px;
+  display: flex;
+  justify-content: start;
+}
+.imageWrapp img {
+  max-width: 100%;
+}
+.commentBlock {
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+.commentBlock textarea {
+  padding: 10px;
+  height: 85px;
+  border: 1px solid #dedede;
+  resize: none;
+  width: 500px;
+}
+.commentBlock button {
+  margin-left: 20px;
+  background-color: #4d80aa;
+  border: none;
+  color: #fff;
+  width: 100px;
+  width: 200px;
+  height: 40px;
+}
+.commentBlock div {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}

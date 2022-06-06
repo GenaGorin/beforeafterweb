@@ -1,0 +1,56 @@
+.myProfileWrap {
+  background-color: #fff;
+  padding: 20px;
+}
+.avaWrapper img {
+  width: 150px;
+  height: 150px;
+  cursor: pointer;
+  border-radius: 75px;
+}
+.dataWrapper {
+  margin-left: 20px;
+  margin-top: 20px;
+}
+.logoutWrapper {
+  margin-top: 20px;
+}
+.avaWrapper {
+  display: flex;
+  flex-direction: column;
+}
+.avaWrapper input {
+  display: none;
+}
+.tabsWrapper {
+  display: flex;
+  margin-top: 40px;
+}
+.tabsWrapper div {
+  margin-right: 20px;
+  cursor: pointer;
+  color: #909090;
+}
+.tabsWrapper div:hover {
+  color: #4d80aa;
+}
+.tabActive {
+  color: #4d80aa !important;
+}
+.tabContentWrapper {
+  margin-top: 60px;
+  background-color: #fff;
+  padding: 20px;
+}
+.nameWrapper {
+  display: flex;
+}
+.profileName {
+  margin-left: 20px;
+  font-size: 20px;
+}
+.profileName span {
+  font-size: 14px;
+  color: #909090;
+  margin-top: -10px;
+}

@@ -1,0 +1,17 @@
+.tagsWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 16px;
+}
+.tag {
+  margin-right: 16px;
+  padding: 0px 6px;
+  background-color: red;
+  border-radius: 4px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.tag:hover {
+  color: #fff;
+}

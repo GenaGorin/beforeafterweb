@@ -1,0 +1,11 @@
+.subscribeBtn {
+  background-color: #474350;
+  height: 25px;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+}

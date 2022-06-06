@@ -1,0 +1,24 @@
+.switchBtnsWrapper {
+  margin-bottom: 20px;
+  background-color: #fff;
+  display: flex;
+  margin-top: 20px;
+}
+.switchBtnsWrapper div {
+  text-decoration: none;
+  margin-right: 20px;
+  color: #2d2d2f;
+  cursor: pointer;
+  padding-bottom: 10px;
+}
+.switchBtnsWrapper div:hover {
+  color: #4d80aa;
+  border-bottom: 2px solid #4d80aa;
+}
+
+.btnActive {
+  color: #4d80aa !important;
+  border-bottom: 2px solid #4d80aa;
+}
+.btnNotActive {
+}

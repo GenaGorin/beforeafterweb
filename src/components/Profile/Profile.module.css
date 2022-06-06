@@ -1,0 +1,67 @@
+.tabsWrapper {
+  display: flex;
+  margin-top: 40px;
+}
+.tabsWrapper div {
+  margin-right: 20px;
+  cursor: pointer;
+  color: #909090;
+}
+.tabsWrapper div:hover {
+  color: #4d80aa;
+}
+.profileWrapper {
+  background-color: #fff;
+  padding: 20px;
+}
+
+.singleGoal {
+  text-decoration: none;
+  color: #2d2d2f;
+  margin-top: 20px;
+}
+.singleGoal:hover {
+  color: #4d80aa;
+}
+.goalWrap {
+  margin-top: 20px;
+  display: flex;
+}
+
+.tabActive {
+  color: #4d80aa !important;
+}
+.tabContentWrapper {
+  margin-top: 60px;
+  background-color: #fff;
+  padding: 20px;
+}
+.goalWrapText div:nth-child(1) {
+  font-size: 20px;
+}
+.goalWrapText div:nth-child(2) {
+  font-size: 12px;
+}
+.goalWrapImg {
+  margin-top: 10px;
+  margin-left: 15px;
+}
+
+.profileDesc {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.profileDesc div:nth-child(1) {
+  font-size: 18px;
+}
+.profileDesc div:nth-child(2) {
+  font-size: 14px;
+  color: #766c6c;
+}
+.profileContacts {
+  color: #2d2d2f;
+  font-size: 14px;
+}
+.profileContacts span {
+  color: #4d80aa;
+}

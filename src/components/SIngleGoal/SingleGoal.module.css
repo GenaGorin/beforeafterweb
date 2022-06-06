@@ -1,0 +1,132 @@
+.authorWrapper {
+  display: flex;
+  text-decoration: none;
+  color: #2d2d2f;
+}
+.authorName {
+  margin-top: 15px;
+  margin-left: 5px;
+}
+.goalDatasWrapper {
+  font-size: 12px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.goalDatasWrapper span {
+  color: #4d80aa;
+}
+.authorWrapperData {
+  display: flex;
+  margin-right: 10px;
+}
+.authorWrapperData img:nth-child(1) {
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  margin-right: 10px;
+}
+.authorWrapperData img:nth-child(2) {
+  width: 30px;
+  height: 30px;
+  margin-left: -30px;
+  margin-top: 32px;
+}
+.goalWrapper {
+  margin-bottom: 50px;
+  border-radius: 8px;
+  width: 100%;
+  padding: 45px;
+  background: #fff;
+}
+.subscribeBtn {
+  background-color: #6997d3;
+  height: 25px;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  border-radius: 4px;
+}
+.goalTitle {
+  font-size: 20px;
+}
+.goalDescription {
+  font-size: 14px;
+  color: #909090;
+}
+
+.stagesWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 25px;
+}
+.stageWrapper {
+  margin-right: -65px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+.likesWrapper {
+  display: flex;
+  font-size: 14px;
+  margin-top: 10px;
+  color: #4d80aa;
+}
+.likesWrapper img {
+  width: 25px;
+  cursor: pointer;
+}
+.likesWrapper div:nth-child(2) {
+  margin-left: 4px;
+  margin-top: 3px;
+}
+.singleCommentWrapper {
+  display: flex;
+  margin-top: 8px;
+  border-bottom: 1px solid #dedede;
+  padding-bottom: 8px;
+  text-decoration: none;
+  color: #2d2d2f;
+}
+.singleCommentWrapper img {
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+}
+.nameWrapper {
+  margin-left: 10px;
+}
+.nameWrapper div:nth-child(1) {
+  font-size: 12px;
+  color: #474350;
+}
+.nameWrapper span {
+  font-size: 12px;
+  color: #6997d3;
+  margin-left: 5px;
+}
+.stageImageWrapper {
+}
+.stageImageWrapper img {
+  width: 211px;
+  height: 200px;
+}
+.singleGoalWrapp {
+  text-decoration: none;
+  color: #2d2d2f;
+}
+.singleGoalWrapp:hover {
+  color: #2d2d2f;
+}
+.commentLikeWrapper {
+  display: flex;
+}
+.donedIcon {
+  width: 30px;
+  height: 30px;
+}
+
+.goalAuthorWrapperDone {
+  display: flex;
+  justify-content: space-between;
+}
